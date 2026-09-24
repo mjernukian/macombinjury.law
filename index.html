@@ -20,7 +20,7 @@
 <link rel="preload" as="font" type="font/woff2" href="/fonts/playfair-display-latin.woff2" crossorigin>
 <link rel="preload" as="font" type="font/woff2" href="/fonts/montserrat-latin.woff2" crossorigin>
 <link rel="preload" as="image" type="image/webp" imagesrcset="/assets/img/michael-640.webp 640w, /assets/img/michael-960.webp 960w" imagesizes="(max-width:900px) 90vw, 440px">
-<link rel="stylesheet" href="/assets/site.css?v=21">
+<link rel="stylesheet" href="/assets/site.css?v=22">
 <script>document.documentElement.classList.add('js')</script>
 <script type="application/ld+json">
 {
@@ -107,6 +107,14 @@
   </div>
 </header>
 
+<form name="case-check" data-netlify="true" netlify-honeypot="bot-field" hidden>
+  <input type="text" name="bot-field">
+  <input type="tel" name="phone">
+  <input type="text" name="detail">
+  <input type="text" name="type">
+  <input type="text" name="page">
+</form>
+
 <main id="main">
 
   <section class="hero dark">
@@ -119,6 +127,7 @@
           <a class="btn btn-brass" href="#contact">Free Consultation</a>
           <a class="btn btn-ghost-light" href="tel:+13135408512">Call (313) 540-8512</a>
         </div>
+        <a class="ilink rv" href="#intake">Not sure you have a case? Answer 4 quick questions &rarr;</a>
         <ul class="hero-points rv">
           <li>Trial attorney at Morgan &amp; Morgan</li>
           <li>Super Lawyers Rising Star</li>
@@ -205,6 +214,9 @@
         <li class="rv"><span class="num">03</span><h3>Motorcycle Accidents</h3><p>Riders hit by drivers who turned or merged into them. Michigan handles motorcycle injury claims differently under no-fault, and the order of insurance coverage matters.</p></li>
         <li class="rv"><span class="num">04</span><h3>Pedestrian Accidents</h3><p>People struck while walking or crossing the street. A pedestrian hit by a motor vehicle in Michigan can often claim no-fault benefits even without owning a car.</p></li>
       </ul>
+      <div class="intake rv" id="intake" aria-live="polite">
+        <noscript><p>Not sure you have a case? Call Michael at <a href="tel:+13135408512">(313) 540-8512</a>. The consultation is free.</p></noscript>
+      </div>
     </div>
   </section>
 
@@ -271,6 +283,6 @@
     <p>&copy; <span id="yr">2026</span> Michael Jernukian</p>
   </div>
 </footer>
-<script src="/assets/site.js?v=6" defer></script>
+<script src="/assets/site.js?v=7" defer></script>
 </body>
 </html>

@@ -33,6 +33,17 @@ This is a scaffold: the structure is in place and every piece of content is a
 
 Every push to `main` deploys automatically.
 
+## "Do I have a case?" leads (Netlify Forms)
+
+The four-question intake on the home page (`#intake`, logic in `assets/site.js`)
+posts only when a visitor leaves a phone number. Submissions go to the Netlify
+form named `case-check`.
+
+1. Netlify -> Project configuration -> Forms: make sure form detection is on.
+2. Forms -> Form notifications -> Add notification -> Email notification ->
+   form `case-check` -> Michael's email.
+3. Submissions also appear under the project's Forms tab.
+
 ## Launch checklist
 
 1. Replace every `[BRACKETED]` placeholder. Find them with `grep -rn '\[' --include=*.html --include=*.txt .`
