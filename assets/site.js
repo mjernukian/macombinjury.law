@@ -100,7 +100,7 @@
         '<form class="iform" novalidate><label class="skip" for="ip">Your phone number</label>' +
         '<input id="ip" type="tel" name="phone" placeholder="Your phone number" autocomplete="tel" inputmode="tel" required>' +
         '<button class="btn btn-brass" type="submit">Have Michael take a look</button></form>' +
-        '<p class="ialt">Or call Michael now at <a href="' + TEL + '">' + PHONE + '</a>.</p>' +
+        '<p class="ialt">Or call now at <a href="' + TEL + '">' + PHONE + '</a> and ask for MJ.</p>' +
         '<button type="button" class="iback">Start over</button>';
       var form = box.querySelector('.iform');
       form.addEventListener('submit', function (e) {
@@ -120,7 +120,7 @@
           form.outerHTML = '<p class="idone">Got it. Michael will reach out.</p>';
         }).catch(function () {
           btn.disabled = false;
-          form.insertAdjacentHTML('afterend', '<p class="ierr">That didn&rsquo;t go through. Please call Michael at <a href="' + TEL + '">' + PHONE + '</a>.</p>');
+          form.insertAdjacentHTML('afterend', '<p class="ierr">That didn&rsquo;t go through. Please call <a href="' + TEL + '">' + PHONE + '</a> and ask for MJ.</p>');
         });
       });
       box.querySelector('.iback').addEventListener('click', function () { i = 0; st = {}; label = {}; render(); });

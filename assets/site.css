@@ -385,3 +385,9 @@ h1 em,h2 em{color:var(--green);}
 .intake .ierr{color:#9B2C2C;font-size:14px;margin-top:10px;}
 .intake .ialt{margin-top:14px;font-size:14.5px;color:var(--muted);}
 @media (max-width:480px){.intake .iopt{flex:1 1 100%;}.intake .iform .btn{width:100%;justify-content:center;}}
+
+/* "Ask for MJ" */
+.askmj{margin:16px 0 0;font-size:15px;color:rgba(246,243,234,.85)!important;}
+.askmj strong,.contact p strong{color:var(--brass-lt);letter-spacing:.06em;}
+.contact-card .askmj-card{margin:-14px 0 22px;font-size:14px;color:rgba(246,243,234,.8);}
+.contact-card .askmj-card strong{color:var(--brass-lt);letter-spacing:.06em;}
