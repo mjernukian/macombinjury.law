@@ -313,3 +313,4 @@ h1 em,h2 em{color:var(--green);}
 /* Headshot */
 .portrait-frame picture{position:absolute;inset:0;}
 .portrait-frame img.photo{width:100%;height:100%;object-fit:cover;object-position:50% 20%;}
+.practice li{align-content:start;}
