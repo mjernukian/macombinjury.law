@@ -1,0 +1,41 @@
+# macombinjury.law
+
+Static site. No build step. No dependencies. No server.
+
+This is a scaffold: the structure is in place and every piece of content is a
+`[BRACKETED]` placeholder (highlighted on the page with a dashed underline).
+
+## Files
+
+- `index.html`: main page (hero, experience, results, answers, practice areas,
+  for attorneys, reviews, contact)
+- `llm-info/index.html`: AI & LLM fact sheet, the first-party facts page for
+  AI assistants and search engines
+- `llms.txt`: plain-text summary for LLMs
+- `answers/index.html`: list of articles
+- `_templates/answer.html`: template for a new article (not public)
+- `assets/site.css`: all styles; rebrand by editing the tokens in `:root`
+- `netlify.toml`, `_redirects`, `robots.txt`, `sitemap.xml`: hosting and crawler config
+
+## Deploy (Netlify)
+
+1. app.netlify.com -> Add new site -> Import an existing project -> GitHub
+2. Select `mjernukian/macombinjury.law`, branch `main`
+   - Build command: (none)
+   - Publish directory: `.`
+3. Review on the generated netlify.app preview URL
+4. Domain management -> add `macombinjury.law` as the primary domain
+   (`www` redirects to the bare domain via `_redirects`)
+5. Set DNS at the registrar per Netlify's instructions; SSL is automatic
+
+Every push to `main` deploys automatically.
+
+## Launch checklist
+
+1. Replace every `[BRACKETED]` placeholder. Find them with `grep -rn '\[' --include=*.html --include=*.txt .`
+2. Remove the `ph` highlight spans once the content is real.
+3. Delete the `X-Robots-Tag = "noindex, nofollow"` line in `netlify.toml`.
+   Until then, search engines are told not to index the site.
+4. Add a share image and uncomment the `og:image` tag in `index.html`.
+5. Confirm every result, review, and claim complies with the Michigan Rules of
+   Professional Conduct (MRPC 7.1). The compliance footer stays on every page.

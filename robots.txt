@@ -1,0 +1,26 @@
+# macombinjury.law — all crawlers welcome, including AI assistants.
+# (Until launch, netlify.toml sends X-Robots-Tag: noindex on every page.)
+User-agent: *
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+Sitemap: https://macombinjury.law/sitemap.xml
+
+# Machine-readable summary for LLMs: https://macombinjury.law/llms.txt

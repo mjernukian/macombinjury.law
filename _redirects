@@ -1,0 +1,8 @@
+# Domain consolidation: everything lands on the bare domain
+https://www.macombinjury.law/* https://macombinjury.law/:splat 301!
+
+# Authoring templates are not public pages
+/_templates/* / 301!
+
+# Any path that doesn't exist goes home (no 404s)
+/* / 301

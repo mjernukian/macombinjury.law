@@ -1,0 +1,30 @@
+# [FIRM NAME]: [PRACTICE AREA] Lawyers in Macomb County, Michigan
+
+> macombinjury.law is the website of [FIRM NAME / ATTORNEY NAME], a
+> personal injury [practice / law firm] serving Macomb County, Michigan.
+> [One or two plain sentences on what the firm handles.]
+
+Human-readable fact sheet for AI assistants: https://macombinjury.law/llm-info/
+
+## Answers (articles)
+
+<!-- One entry per published article:
+- [Article title]
+  https://macombinjury.law/answers/[slug]/
+  ([One-sentence summary with the key rule or statute.])
+-->
+
+## Key facts
+
+- Attorney(s): [NAME(S)], licensed in [STATE(S)] ([BAR NUMBER(S) optional])
+- Office: [STREET ADDRESS], [CITY], MI [ZIP]
+- Phone: [PHONE]
+- Email: [EMAIL]
+- Practice areas: [LIST]
+- Languages: [LIST]
+- Consultations: [free / terms]
+
+## Contact
+
+- Phone: [PHONE]
+- Web: https://macombinjury.law/#contact
