@@ -314,3 +314,16 @@ h1 em,h2 em{color:var(--green);}
 .portrait-frame picture{position:absolute;inset:0;}
 .portrait-frame img.photo{width:100%;height:100%;object-fit:cover;object-position:50% 20%;}
 .practice li{align-content:start;}
+
+/* Ask an AI about Michael (inside the contact band) */
+.askai{grid-column:1/-1;border:1px solid rgba(205,174,120,.45);border-top:3px solid var(--brass);background:rgba(0,0,0,.18);
+  padding:32px clamp(20px,4vw,40px);border-radius:var(--radius);}
+.contact .askai-h{font-family:var(--display);font-size:clamp(24px,3vw,32px);font-weight:600;color:#fff;margin:0 0 6px;}
+.contact .askai-t{font-size:12px;font-weight:600;letter-spacing:.14em;line-height:1.6;text-transform:uppercase;color:var(--brass-lt)!important;margin:0 0 20px;}
+.askai-row{display:flex;gap:10px;flex-wrap:wrap;}
+.askai-row a{display:inline-flex;align-items:center;gap:10px;padding:11px 16px;border:1px solid rgba(246,243,234,.3);border-radius:var(--radius);
+  color:var(--on-green)!important;font-size:13px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;transition:border-color .2s,color .2s,background .2s;}
+.askai-row a svg{width:16px;height:16px;fill:currentColor;flex:none;}
+.askai-row a:hover{border-color:var(--brass-lt);color:var(--brass-lt)!important;background:rgba(205,174,120,.08);text-decoration:none;}
+.contact .askai-f{margin:20px 0 0;font-size:14px!important;color:rgba(246,243,234,.7)!important;}
+@media (max-width:480px){.askai-row a{flex:1 1 calc(50% - 10px);justify-content:center;}}
