@@ -1,5 +1,5 @@
 /* macombinjury.law — shared styles.
-   Palette comes from the MJ logo: green #024D2C on cream.
+   Palette: logo green #024D2C and cream, with deep green bands and brass accents.
    Rebrand by changing the tokens in :root. Everything else reads from them. */
 
 @font-face{font-family:'Playfair Display';font-style:normal;font-weight:500 700;font-display:swap;
@@ -18,6 +18,10 @@
   --green-tint:#EEF3EF; /* soft panels */
   --on-green:#F6F3EA;   /* text on green */
   --line:#E3E0D6;       /* hairlines */
+  --brass:#B08D57;      /* accent on dark backgrounds, buttons */
+  --brass-lt:#CDAE78;   /* accent text on dark backgrounds */
+  --brass-dk:#86683A;   /* accent text on light backgrounds (AA contrast on cream) */
+  --night:#0B1410;      /* footer */
   --display:'Playfair Display', Georgia, 'Times New Roman', serif;
   --body:'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
   --radius:4px;
@@ -209,3 +213,63 @@ blockquote.card cite{display:block;margin-top:18px;font-style:normal;font-size:1
   .js .rv{opacity:1;transform:none;transition:none;}
   a.card{transition:none;}
 }
+
+/* ---------- Rich theme layer: deep green bands + brass accents ---------- */
+
+/* Accents on light sections */
+.label{color:var(--brass-dk);}
+.result{border-top-color:var(--brass);}
+.practice .num{color:var(--brass-dk);}
+blockquote.card::before{color:var(--brass);opacity:.55;}
+h1 em,h2 em{color:var(--green);}
+
+/* Brass button */
+.btn-brass{background:var(--brass);border-color:var(--brass);color:var(--green-deep);}
+.btn-brass:hover{background:var(--brass-lt);border-color:var(--brass-lt);}
+.btn-ghost-light{background:transparent;border-color:rgba(246,243,234,.45);color:var(--on-green);}
+.btn-ghost-light:hover{background:var(--on-green);border-color:var(--on-green);color:var(--green-deep);}
+
+/* Any dark band */
+.dark{background:var(--green-deep);color:rgba(246,243,234,.82);}
+.dark h1,.dark h2,.dark h3,.dark strong{color:#fff;}
+.dark h1 em,.dark h2 em{color:var(--brass-lt);}
+.dark .label{color:var(--brass-lt);opacity:1;}
+.dark a:not(.btn){color:var(--brass-lt);}
+.dark .ph{background:rgba(246,243,234,.08);border-bottom-color:rgba(205,174,120,.6);}
+
+/* Header */
+.site-header{background:rgba(1,54,32,.97);}
+.site-header.scrolled{border-bottom-color:rgba(205,174,120,.25);box-shadow:0 6px 24px rgba(0,0,0,.18);}
+.site-header.dark a.brand{color:var(--on-green);}
+.nav a:not(.btn){color:rgba(246,243,234,.78);}
+.nav a:not(.btn):hover{color:var(--brass-lt);}
+
+/* Hero */
+.hero{position:relative;overflow:hidden;border-bottom:1px solid rgba(205,174,120,.35);}
+.hero::after{content:"";position:absolute;inset:0;pointer-events:none;
+  background:radial-gradient(ellipse 60% 70% at 85% 30%, rgba(2,77,44,.9), transparent 70%);}
+.hero .wrap{position:relative;z-index:1;}
+.hero .lede{color:rgba(246,243,234,.82);}
+.hero-points{color:var(--on-green);}
+.hero-points li::before{background:var(--brass);}
+.portrait::before{border-color:var(--brass);opacity:.7;}
+.portrait-frame{background:var(--green);box-shadow:0 20px 50px rgba(0,0,0,.35);}
+.portrait-frame img.mark{opacity:.2;}
+.portrait-frame .caption{color:var(--brass-lt);}
+
+/* Referral panel */
+.panel{background:var(--green-deep);border-left-color:var(--brass);color:rgba(246,243,234,.82);}
+.panel h2{color:#fff;}
+.panel .label{color:var(--brass-lt);}
+.panel .ph{background:rgba(246,243,234,.08);border-bottom-color:rgba(205,174,120,.6);}
+
+/* Contact */
+.contact{background:var(--green-deep);border-top:1px solid rgba(205,174,120,.35);}
+.contact .label{color:var(--brass-lt);opacity:1;}
+.contact h2 em{color:var(--brass-lt)!important;}
+.contact-card{background:var(--green);border-top:3px solid var(--brass);box-shadow:0 20px 50px rgba(0,0,0,.25);}
+.contact-card .k{color:var(--brass-lt);opacity:1;}
+
+/* Footer */
+.site-footer{background:var(--night);border-top:1px solid rgba(205,174,120,.25);}
+.site-footer nav a:hover{color:var(--brass-lt);}
