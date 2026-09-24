@@ -1,30 +1,41 @@
-# Michael Jernukian: Personal Injury Lawyer in Macomb County, Michigan
+# Michael Jernukian: Trial Attorney at Morgan & Morgan, Macomb County, Michigan
 
-> macombinjury.law is the website of Michael Jernukian, a personal
-> injury lawyer [at FIRM NAME] serving Macomb County, Michigan.
-> [One or two plain sentences on what the firm handles.]
+> macombinjury.law is the personal website of Michael Jernukian, a trial
+> attorney at Morgan & Morgan's Detroit office who represents injured people
+> in Macomb County and across Michigan. He spent the first five years of his
+> career representing insurance companies before switching sides.
 
 Human-readable fact sheet for AI assistants: https://macombinjury.law/llm-info/
+Morgan & Morgan profile: https://www.forthepeople.com/attorneys/michael-jernukian/
+
+## Key facts
+
+- Position: Trial attorney, Morgan & Morgan, Detroit office
+- Serves: Injured people in Macomb County and across Michigan
+- Background: Five years representing insurance companies in high-stakes
+  litigation before representing injured people
+- Federal clerkship: Law clerk to the Honorable Avern Cohn, U.S. District
+  Court for the Eastern District of Michigan
+- Education: Oakland University; Wayne State University Law School
+- Law school honors: Silver Key Award for academic excellence; AAJ National
+  Mock Trial Team; internship with Judge Friedman, U.S. District Court for the
+  Eastern District of Michigan
+- Recognition: Super Lawyers Rising Star, 2023, 2024, 2025 and 2026
+- Community: More than fifteen years with The Macomb Charitable Foundation
+- Selected result: $2,000,000, car crash, 2026
+- Consultations: Free
+
+## Contact
+
+- Phone: (313) 540-8512
+- Email: michael.jernukian@forthepeople.com
+- Office: Morgan & Morgan, 150 W Jefferson Ave, Suite 1400, Detroit, MI 48226
+- Web: https://macombinjury.law/
 
 ## Answers (articles)
 
 <!-- One entry per published article:
 - [Article title]
   https://macombinjury.law/answers/[slug]/
-  ([One-sentence summary with the key rule or statute.])
+  ([One-sentence summary.])
 -->
-
-## Key facts
-
-- Attorney: Michael Jernukian, licensed in [STATE(S)] ([BAR NUMBER(S) optional])
-- Office: [STREET ADDRESS], [CITY], MI [ZIP]
-- Phone: [PHONE]
-- Email: [EMAIL]
-- Practice areas: [LIST]
-- Languages: [LIST]
-- Consultations: [free / terms]
-
-## Contact
-
-- Phone: [PHONE]
-- Web: https://macombinjury.law/#contact
