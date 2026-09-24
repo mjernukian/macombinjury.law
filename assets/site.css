@@ -327,3 +327,13 @@ h1 em,h2 em{color:var(--green);}
 .askai-row a:hover{border-color:var(--brass-lt);color:var(--brass-lt)!important;background:rgba(205,174,120,.08);text-decoration:none;}
 .contact .askai-f{margin:20px 0 0;font-size:14px!important;color:rgba(246,243,234,.7)!important;}
 @media (max-width:480px){.askai-row a{flex:1 1 calc(50% - 10px);justify-content:center;}}
+
+/* Morgan & Morgan section */
+.firm{border-top:1px solid rgba(205,174,120,.3);border-bottom:1px solid rgba(205,174,120,.3);
+  background:radial-gradient(ellipse 70% 80% at 100% 0%, rgba(1,64,40,.6), transparent 70%), var(--green-deep);}
+.firm .section-head{max-width:760px;}
+.firm .section-head p:not(.label){color:rgba(246,243,234,.82);}
+.card.pillar{background:rgba(255,255,255,.035);border:1px solid rgba(205,174,120,.28);border-top:3px solid var(--brass);box-shadow:none;}
+.card.pillar .num{display:block;font-family:var(--display);font-style:italic;font-size:18px;color:var(--brass-lt);margin-bottom:14px;}
+.card.pillar h3{color:#fff;font-size:22px;margin-bottom:10px;}
+.card.pillar p{color:rgba(246,243,234,.78);}
