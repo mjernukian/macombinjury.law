@@ -15,10 +15,17 @@
     # Delete this line when real content is in (see README launch checklist).
     X-Robots-Tag = "noindex, nofollow"
 
+# CSS/JS always revalidate (Netlify serves ETags, so unchanged files are a
+# fast 304). Fonts and images are safe to cache long.
 [[headers]]
   for = "/assets/*"
   [headers.values]
-    Cache-Control = "public, max-age=3600"
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+[[headers]]
+  for = "/fonts/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
 
 [[headers]]
   for = "/*.html"
