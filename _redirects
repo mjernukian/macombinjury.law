@@ -1,6 +1,9 @@
 # Domain consolidation: everything lands on the bare domain
 https://www.macombinjury.law/* https://macombinjury.law/:splat 301!
 
+# Answers is hidden until it has articles. Delete this rule to bring it back.
+/answers/* / 302!
+
 # Authoring templates are not public pages
 /_templates/* / 301!
 
