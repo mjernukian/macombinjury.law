@@ -9,6 +9,9 @@ This is a scaffold: the structure is in place and every piece of content is a
 
 - `index.html`: main page (hero, experience, results, answers, practice areas,
   for attorneys, reviews, contact)
+- `es/index.html`, `ar/index.html`: Spanish and Arabic home pages, GENERATED from
+  `index.html` by `python3 tools/build-translations.py` (all translations live in
+  that script). After any change to the English home page, run it again.
 - `llm-info/index.html`: AI & LLM fact sheet, the first-party facts page for
   AI assistants and search engines
 - `llms.txt`: plain-text summary for LLMs
