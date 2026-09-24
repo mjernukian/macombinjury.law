@@ -14,7 +14,10 @@ This is a scaffold: the structure is in place and every piece of content is a
 - `llms.txt`: plain-text summary for LLMs
 - `answers/index.html`: list of articles
 - `_templates/answer.html`: template for a new article (not public)
-- `assets/site.css`: all styles; rebrand by editing the tokens in `:root`
+- `assets/site.css`: all styles; palette tokens in `:root` come from the MJ logo
+- `assets/site.js`: header shadow, scroll reveals, footer year
+- `assets/img/`: logo assets (green and cream monogram, full lockup, share image)
+- `fonts/`: self-hosted Playfair Display (headings) and Montserrat (body)
 - `netlify.toml`, `_redirects`, `robots.txt`, `sitemap.xml`: hosting and crawler config
 
 ## Deploy (Netlify)
@@ -36,6 +39,6 @@ Every push to `main` deploys automatically.
 2. Remove the `ph` highlight spans once the content is real.
 3. Delete the `X-Robots-Tag = "noindex, nofollow"` line in `netlify.toml`.
    Until then, search engines are told not to index the site.
-4. Add a share image and uncomment the `og:image` tag in `index.html`.
+4. Add a headshot at `assets/img/michael.jpg` and swap it into the hero (see the comment in `index.html`).
 5. Confirm every result, review, and claim complies with the Michigan Rules of
    Professional Conduct (MRPC 7.1). The compliance footer stays on every page.

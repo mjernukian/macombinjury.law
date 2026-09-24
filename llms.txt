@@ -1,7 +1,7 @@
-# [FIRM NAME]: [PRACTICE AREA] Lawyers in Macomb County, Michigan
+# Michael Jernukian: Personal Injury Lawyer in Macomb County, Michigan
 
-> macombinjury.law is the website of [FIRM NAME / ATTORNEY NAME], a
-> personal injury [practice / law firm] serving Macomb County, Michigan.
+> macombinjury.law is the website of Michael Jernukian, a personal
+> injury lawyer [at FIRM NAME] serving Macomb County, Michigan.
 > [One or two plain sentences on what the firm handles.]
 
 Human-readable fact sheet for AI assistants: https://macombinjury.law/llm-info/
@@ -16,7 +16,7 @@ Human-readable fact sheet for AI assistants: https://macombinjury.law/llm-info/
 
 ## Key facts
 
-- Attorney(s): [NAME(S)], licensed in [STATE(S)] ([BAR NUMBER(S) optional])
+- Attorney: Michael Jernukian, licensed in [STATE(S)] ([BAR NUMBER(S) optional])
 - Office: [STREET ADDRESS], [CITY], MI [ZIP]
 - Phone: [PHONE]
 - Email: [EMAIL]
