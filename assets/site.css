@@ -174,6 +174,7 @@ blockquote.card cite{display:block;margin-top:18px;font-style:normal;font-size:1
 .contact-card .v{font-family:var(--display);font-size:24px;color:#fff;margin-bottom:22px;display:block;}
 .contact-card a.v:hover{text-decoration:underline;}
 .contact-card .v-sm{font-size:18px;}
+.contact-card .v-sm:has(+ .v-sm){margin-bottom:8px;}
 .contact-card .btn{margin-top:6px;width:100%;justify-content:center;}
 @media (max-width:900px){.contact .wrap{grid-template-columns:1fr;gap:36px;}}
 
