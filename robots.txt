@@ -1,5 +1,4 @@
 # macombinjury.law — all crawlers welcome, including AI assistants.
-# (Until launch, netlify.toml sends X-Robots-Tag: noindex on every page.)
 User-agent: *
 Allow: /
 

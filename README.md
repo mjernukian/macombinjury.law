@@ -51,8 +51,7 @@ form named `case-check`.
 
 1. Replace every `[BRACKETED]` placeholder. Find them with `grep -rn '\[' --include=*.html --include=*.txt .`
 2. Remove the `ph` highlight spans once the content is real.
-3. Delete the `X-Robots-Tag = "noindex, nofollow"` line in `netlify.toml`.
-   Until then, search engines are told not to index the site.
+3. Done 2026-11-07: removed the `X-Robots-Tag: noindex` header from `netlify.toml`.
 4. Headshot lives at `assets/img/michael-640/960` (WebP + JPEG); replace both sizes to change it.
 5. Confirm every result, review, and claim complies with the Michigan Rules of
    Professional Conduct (MRPC 7.1). The compliance footer stays on every page.

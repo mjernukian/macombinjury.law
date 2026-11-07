@@ -61,8 +61,8 @@ language. Keep it that way.
 - The Results, Answers and Reviews sections are intentionally small or hidden
   until Michael has real content. `/answers/` redirects home until then
   (`_redirects`).
-- `netlify.toml` sends `X-Robots-Tag: noindex` until launch. Remove it only
-  when the user says to.
+- The site launched on 2026-11-07 and is open to search engines. Do not add
+  `noindex` back unless the user asks.
 
 ## Other files
 
